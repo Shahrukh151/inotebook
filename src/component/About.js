@@ -4,7 +4,6 @@ const About = () => {
   return (
     <div>
       <h1>
-
       This is About
       this shahrukh change
       </h1>
