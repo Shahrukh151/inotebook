@@ -14,9 +14,13 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar/>
+    <h2>Mehmood app</h2>
+    <h2>Aabid Khabis</h2>
+    <h3>shahrukh damis</h3>
+
     <Routes>
   <Route exact path="/" element={<Home />}/>
-  <Route exact path="/" element={<About />}/>
+  <Route exact path="/" element={<div><About /></div>}/>
     </Routes>
     </BrowserRouter>
     
